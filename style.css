@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #58FA58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8000FF;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+.app span {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.app input {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.app button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.app button:hover {
+    background-color: #800080;
+    color: #fff;
+    font-size: 1.4rem;
+}
